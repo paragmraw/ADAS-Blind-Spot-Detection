@@ -47,6 +47,10 @@ Note: Training your data is performed in this step. With an RTX 3060 + Intel i7 
 
 4. Open the `main.ipynb` notebook. Select the specific video you want to use from the `SampleVideos` folder or use your own video if you have trained your custom dataset.
 
+5. To set the playback speed change the value of "fr" variable. Lower fr -> Greater playback speed.
+
+6. To quit the playback, press "q" repeatedly.
+
 ## Roboflow Link
 - [Object Detection for Safe Lane Changing](https://universe.roboflow.com/dayananda-sagar-university-q7oox/object-detection-for-safe-lane-changing/model/1)
 
