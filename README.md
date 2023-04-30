@@ -1,6 +1,6 @@
 # ADAS Blind Spot Detection Using YOLOv8
 
-The "ADAS Blind Spot Detection Using YOLOv8" project is a computer vision model that can identify safe and unsafe lane-changing conditions. The model uses the YOLOv8 algorithm from Ultralytics to detect objects and classify them into categories such as cars, trucks, and motorcycles.
+The "ADAS Blind Spot Detection Using YOLOv8" project is a computer vision model that can identify safe and unsafe lane-changing conditions. The model uses the YOLOv8 algorithm from Ultralytics to detect objects and classify them into safe and unsafe.
 
 Here are a few use cases for this project:
 
