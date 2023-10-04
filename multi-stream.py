@@ -8,7 +8,7 @@ def run_script(script_name):
         print(f"Error running {script_name}: {e}")
 
 if __name__ == "__main__":
-    script_list = ["PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/rear.py"]  # Add more file names as needed
+    script_list = ["PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/rear.py", "PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/right.py", "PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/front.py", "PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/left.py"]  # Add more file names as needed
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
         executor.map(run_script, script_list)
