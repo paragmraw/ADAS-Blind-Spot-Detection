@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['safe', 'unsafe']
+
+roboflow:
+  workspace: dayananda-sagar-university-q7oox
+  project: object-detection-for-safe-lane-changing
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/dayananda-sagar-university-q7oox/object-detection-for-safe-lane-changing/dataset/1
