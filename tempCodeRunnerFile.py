@@ -9,7 +9,7 @@ from pygame import mixer
 fr=50
 
 # Open video file using OpenCV
-video_path = "PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/SampleVideos/short_rear.mp4" #EDIT INPUT FILE
+video_path = "PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/SampleVideos/short_left.mp4" #EDIT INPUT FILE
 cap = cv2.VideoCapture(video_path)
 mixer.init()
 mixer.music.load('PAST_SEM/Data_Science/ADAS-Blind-Spot-Detection/warning.mp3')
